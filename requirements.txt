@@ -1,0 +1,22 @@
+# RAG workshop demo — verified working versions
+# Install:
+#   uv venv .venv --python 3.11
+#   uv pip install --python .venv/bin/python -r requirements.txt
+
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+
+# Generation: Gemini 3.5 Flash Lite via Google AI Studio
+langchain-google-genai
+
+# Embeddings: all-MiniLM-L6-v2, runs locally
+langchain-huggingface
+sentence-transformers
+
+# Vector store
+faiss-cpu
+
+# Notebook runtime
+ipykernel
